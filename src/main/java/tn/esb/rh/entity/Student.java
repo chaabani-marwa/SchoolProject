@@ -6,7 +6,8 @@ import lombok.experimental.FieldDefaults;
 
 // test 1er commit 
 // 2eme modif
-// Un commentaire pour le 1er commit  
+// Un commentaire pour le 1er commit 
+// Modif dans la branche  
 @Entity
 @Getter
 @Setter
