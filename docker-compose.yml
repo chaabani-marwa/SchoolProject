@@ -31,6 +31,14 @@ services:
       }'
     stdin_open: true
     tty: true
+    
+  app-School-Front:
+    depends_on:
+      - app-School-Back
+    image: mouradhassini/student-front-image:1.0.0
+    restart: on-failure
+    ports:
+      - 8085:85  
 
 volumes:
   db :
