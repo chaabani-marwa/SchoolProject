@@ -14,7 +14,7 @@ services:
       - db:/var/lib/mysql
 
 
-  app-timesheet:
+  app-School-Back:
     depends_on:
       - mysqldb
     image: marwaiset/school:1.0.0
